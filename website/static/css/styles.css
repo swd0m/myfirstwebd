@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg1,
+.bg2 {
+  height: 1000px;
+  width: 100vw;
+  /* border: solid 2px; */
+}
+
+.bg1 {
+  background: linear-gradient(
+      rgba(108, 117, 125, 0.4),
+      rgba(108, 117, 125, 0.5)
+    ),
+    url(website/static/assets/pexels-josh-sorenson-1714208.jpg) center/cover no-repeat
+      scroll;
+}
+
+.bg2 {
+  background: linear-gradient(
+      rgba(108, 117, 125, 0.5),
+      rgba(108, 117, 125, 0.6)
+    ),
+    url(website/static/assets/pexels-fauxels-3184454.jpg) center/cover no-repeat scroll;
+}
+
+.tophd {
+  height: 120px;
+  width: 100vw;
+  background: linear-gradient(
+    45deg,
+    rgba(173, 232, 244, 0.3),
+    rgba(72, 202, 2280.1)
+  );
+  color: #ffd60a;
+  text-align: center;
+  font-size: 100px;
+  font-family: "Staatliches", cursive;
+  padding: -20px;
+  position: static;
+  box-shadow: 5px;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.txt1 {
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: monospace;
+  color: white;
+  line-height: 150%;
+  letter-spacing: 3px;
+  padding: 50px 0px 50px 0px;
+}
+
+button {
+  position: relative;
+  top: 320px;
+  left: 45vw;
+  width: 180px;
+  height: 60px;
+  background-color: brown;
+  display: inline-block;
+  font-size: 34px;
+  color: #ffd60a;
+  font-family: monospace;
+  border: solid 1px yellow;
+}
+
+button:hover {
+  background-color: #ffd60a;
+  color: #fb5607;
+  border: solid 1px #fb5607;
+}
+button:hover {
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.list {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 12px;
+}
+
+.list li {
+  display: block;
+  background: brown;
+  padding: 5px 3px 5px 3px;
+  margin: 3px;
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 12px;
+}
+
+.list li:hover {
+  background-color: blanchedalmond;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: antiquewhite;
+}
+
+a:hover {
+  color: black;
+}
+
+.botmcpy {
+  height: 150px;
+  width: 100vw;
+  background: black;
+  position: absolute;
+  top: 1850px;
+}
+
+.cpytxt {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.txt2 {
+  text-align: center;
+  position: relative;
+  top: 120px;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 0px 10px 0px 10px;
+  color: burlywood;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.card1,
+.card2 {
+  background: white;
+  position: relative;
+  top: 170px;
+  left: 225px;
+  height: 450px;
+  width: 350px;
+  margin: 50px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+img {
+  height: 80%;
+  width: 100%;
+}
+
+.intro {
+  margin: 7.5px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1.2px 1.2px teal;
+}
+.intro b {
+  text-transform: uppercase;
+}
