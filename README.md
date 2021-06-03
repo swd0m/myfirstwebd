@@ -3,9 +3,9 @@ Ok, so I have done HTML CSS course lately to make some cool stuff. So here is a 
 
 
 # Steps to set up
-'''
-  install python
-  then run 'pip install flask' on terminal/command prompt
-  then open the repo and cd to myfirstwebd
-  then run 'python main.py'
+
+  ### 1. install python
+  ### 2. then run 'pip install flask' on terminal/command prompt
+  ### 3. then open the repo and cd to myfirstwebd
+  ### 4 .then run 'python main.py'
 '''
